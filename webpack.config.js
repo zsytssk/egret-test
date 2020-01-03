@@ -7,8 +7,8 @@ module.exports = {
     entry: ['./src/main.ts'],
     output: {
         filename: 'main.js',
-        path: path.join(__dirname, 'egret/src'),
-        publicPath: 'src/',
+        path: path.join(__dirname, 'egret/bin-debug'),
+        publicPath: 'bin-debug/',
     },
     resolve: {
         modules: [path.resolve('./test'), path.resolve('./node_modules')],

@@ -1,14 +1,14 @@
 {
-	"initial": [
-		"libs/modules/egret/egret.js",
-		"libs/modules/egret/egret.web.js",
-		"libs/modules/eui/eui.js",
-		"libs/modules/assetsmanager/assetsmanager.js",
-		"libs/modules/tween/tween.js",
-		"libs/WXCloudApi/WXCloudApi.js",
-		"libs/egretmgobe/egretmgobe.js"
-	],
-	"game": [
-		"src/main.js"
-	]
+    "initial": [
+        "libs/modules/egret/egret.js",
+        "libs/modules/egret/egret.web.js",
+        "libs/modules/eui/eui.js",
+        "libs/modules/assetsmanager/assetsmanager.js",
+        "libs/modules/tween/tween.js",
+        "libs/WXCloudApi/WXCloudApi.js",
+        "libs/egretmgobe/egretmgobe.js"
+    ],
+    "game": [
+        "bin-debug/main.js"
+    ]
 }
